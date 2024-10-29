@@ -3,9 +3,9 @@ services:
   name: rabbitmq
   env: docker
   envVars:
-  - key: RABBITMQ_ERLANG_COOKIE
+  - key: RABBITMQ_A_R_Y
     generateValue: true
-  - key: RABBITMQ_DEFAULT_USER
+  - key: RABBITMQ_TICKETER
     value: rabbitmq
   - key: RABBITMQ_DEFAULT_PASS
     generateValue: true
